@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="985bf39f-e2e5-4e68-9f22-7ae7f7cc2feb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/backend/adonis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/backend/django.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/backend/express.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/backend/feathers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/backend/laravel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/backend/moleculer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/backend/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/backend/sails.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/databases/mongodb.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/databases/mysql.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/databases/redis.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/frontend/angular.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/frontend/angularjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/frontend/css3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/frontend/ember.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/frontend/html5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/frontend/react.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/frontend/tailwind.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/frontend/vue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/languages/C#.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/languages/C.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/languages/XML.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/languages/bash.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/languages/golang.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/languages/java.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/languages/javascript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/languages/php.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/languages/python.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/tools/aws.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/tools/curl.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/tools/docker.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/tools/drush.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/tools/elasticsearch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/tools/emmet.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/tools/firebase_cli.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/tools/gcp.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/tools/git.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/tools/heroku.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/tools/kubernetes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/tools/macos.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/tools/nanobox_boxfile.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/tools/nanobox_cli.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/tools/nginx.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/tools/pm2.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/tools/puppeteer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/tools/sublime_text.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/tools/ubuntu.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/tools/vim.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/tools/vscode.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Awesome cheatsheets copy/tools/xcode.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/CHEATSHEETS JER V1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/COMBINED_CHEATSHEET.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/1password.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/adobe-lightroom.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/adobe-photoshop.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/adobe-xd.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/affinity-designer.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/affinity-photo.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/ai.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/airtable.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/alan-ai.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/alpine-linux.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/android-studio.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/apex-legends.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/apple-music.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/arduino-programming.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/arduino.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/asana.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/ascii-code.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/aspect-ratio.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/audacity.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/awk.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/bash.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/bear-notes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/bitbucket.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/blender.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/brave.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/c.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/canvas.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/chatgpt.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/chmod.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/chrome-devtools.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/code-editor-ios.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/conventional-commits.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/cpp.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/cron.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/cs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/css3.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/curl.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/dart.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/django.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/docker.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/ejs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/emacs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/emmet.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/emoji.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/es6.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/express.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/feedly.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/figma.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/filezilla.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/find.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/finder.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/firefox.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/fortnite.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/framer-x.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/gimp.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/git.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/github-actions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/github-cli.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/github.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/gitlab.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/gmail.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/gnome-desktop.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/gnupg.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/go.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/google-chrome.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/google-drive.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/google-search.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/graphql.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/grep.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/guitar-pro.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/homebrew.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/hook.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/html-char.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/html.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/http-status-code.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/idea.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/ini.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/iso-639-1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/java.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/javascript.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/jira.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/jquery.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/json.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/kanbanmail.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/kotlin.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/kubernetes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/laravel.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/latex.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/lsof.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/markdown.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/matlab.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/microsoft-teams.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/mime.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/missive.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/mitmproxy.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/monday.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/mongodb.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/mysql.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/nc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/neo4j.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/netstat.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/nim.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/notion.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/numpy.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/obsidian.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/ocaml.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/openssl.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/origami.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/outlook.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/pandas.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/pandoc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/perl.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/php.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/phpstorm.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/pm2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/pocket.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/postgres.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/postman.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/powershell.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/principle.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/proto-io.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/putty.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/python.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/pytorch.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/quickref.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/quip.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/react.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/reddit.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/redis.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/regex.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/resolutions.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/roam.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/ruby.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/rust.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/sass.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/screen.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/sdkman.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/sed.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/selenium.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/sequel-pro.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/shopify.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/sketch.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/sketchup.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/skype.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/slack.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/soundcloud.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/spotify.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/ssh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/sublime-text.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/superhuman.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/svelte.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/swift.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/table-plus.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/taskset.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/telegram.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/terraform.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/ticktick.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/tmux.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/todoist.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/toml.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/transmit.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/trello.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/twitter.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/typescript.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/unity-3d.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/unity-shader-graph.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/unreal-engine.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/vim.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/vivaldi.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/vlc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/vscode.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/webflow.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/webstorm.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/windows-shortcuts.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/wordpress.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/xpath.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/yaml.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/youtube.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/zed.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevHints.io/Reference cheat sheets copy/zoom.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/DevHints.io" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2xlrku79fnDeRWnSkYPd3iz3i4e" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;ToolWindow.Terminal.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/WEBDEV/Cheatsheets/Devhints-plus-others&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;npm.astro.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.preview.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;npm.update --dev.executor&quot;: &quot;Run&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\WEBDEV\\Cheatsheets\\devhints.io\\node_modules\\prettier&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\J_vdz\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;stardust.markdown.MarkdownSplitEditorSuppressor:keyList&quot;: []
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\WEBDEV\Cheatsheets\Devhints-plus-others" />
+      <recent name="C:\WEBDEV\Cheatsheets\devhints.io\Reference cheat sheets copy" />
+      <recent name="C:\WEBDEV\Cheatsheets\devhints.io\Awesome cheatsheets copy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="astro" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="astro" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="preview" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="preview" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.preview" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.astro" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="985bf39f-e2e5-4e68-9f22-7ae7f7cc2feb" name="Changes" comment="" />
+      <created>1741694764709</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741694764709</updated>
+      <workItem from="1748523650008" duration="13094000" />
+      <workItem from="1748553826234" duration="6762000" />
+      <workItem from="1748591423011" duration="737000" />
+      <workItem from="1748593267207" duration="304000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

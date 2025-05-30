@@ -4,7 +4,7 @@ dist/
 .astro/
 
 # dependencies
-node_modules/
+DevHints.io/node_modules/
 
 # logs
 npm-debug.log*

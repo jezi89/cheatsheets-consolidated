@@ -41,7 +41,7 @@ Voor elke technologie wordt:
 - [Figma](#figma)
 - [Adobe Tools](#adobe-tools)
 - [GIMP](#gimp---gnu-image-manipulation-program)
-- [Sketch/SketchUp](#-sketchsketchup---design-tools)
+- [Sketch/SketchUp](#sketchsketchup---design-tools)
 
 ### 🎯 Canvas & Visualization
 - [HTML5 Canvas API](#html5-canvas-api)
@@ -51,36 +51,36 @@ Voor elke technologie wordt:
 ### 🗄️ Backend & Database
 - [PostgreSQL](#postgresql)
 - [SQL Queries](#sql-queries)
-- [Heroku Platform](#heroku-platform)
-- [Nginx Web Server](#nginx-web-server)
+- [Heroku Platform](#heroku---cloud-platform-deployment)
+- [Nginx Web Server](#nginx---web-server--reverse-proxy)
 
 ### 📡 HTTP & API Integration
-- [REST APIs](#rest-apis)
-- [JSON Data Format](#json-data-format)
-- [cURL Commands](#curl-commands)
-- [HTTP Status Codes](#http-status-codes)
+- [REST APIs](#rest-api-design-patterns)
+- [JSON Data Format](#json---javascript-object-notation)
+- [cURL Commands](#-curl---http-client-tool)
+- [HTTP Status Codes](#http-status-code-referentie)
 
 ### 💾 Data Storage & Management
 - [localStorage & sessionStorage](#localstorage--sessionstorage)
 
 ### 🧪 Testing & Quality Assurance
-- [Puppeteer](#-puppeteer---browser-automation)
-- [Vitest](#-vitest---modern-testing-framework)
-- [Playwright](#-playwright---end-to-end-testing)
-- [Jest](#-jest---javascript-testing-framework)
+- [Puppeteer](#puppeteer---browser-automation)
+- [Vitest](#vitest---modern-testing-framework)
+- [Playwright](#playwright---end-to-end-testing)
+- [Jest](#jest---javascript-testing-framework)
 
 ### 🔧 Development Tools
-- [Chrome DevTools](#chrome-devtools)
+- [Chrome DevTools](#-chrome-devtools---browser-developer-tools)
 - [Google Chrome](#google-chrome)
-- [FFmpeg Media Tool](#ffmpeg-media-tool)
-- [OpenSSL](#openssl)
-- [RegExp/Regex](#regexpregex)
+- [FFmpeg Media Tool](#-ffmpeg---media-processing)
+- [OpenSSL](#-openssl---cryptography-toolkit)
+- [RegExp/Regex](#-regexp---regular-expressions)
 
 ### 🌐 Web Technologies & APIs
-- [HTML5](#-html5---modern-web-markup)
+- [HTML5](#-html5---hypertext-markup-language)
 - [DOM API](#-dom-api---document-object-model)
 - [Fetch API](#-fetch-api---modern-http-requests)
-- [Emmet](#-emmet---htmlcss-abbreviations)
+- [Emmet](#-emmet---htmlcss-expansion)
 
 ### 📝 Documentation & Content
 - [Markdown](#-markdown---lightweight-markup-language)
@@ -113,33 +113,19 @@ Voor elke technologie wordt:
 - [Ubuntu Commands](#-ubuntu-commands)
 - [Cron Jobs](#-cron-jobs)
 
-
 ### 🔍 Search & Navigation
-- [XPath](#xpath)
+- [XPath](#-xpath)
 - [Find Command](#find-command)
 
 ### 🤖 AI & Automation
-- [AI Tools](#ai-tools)
+- [AI Tools](#-ai-tools)
 
 ### 📱 Mobile Development
-- [ADB (Android Debug Bridge)](#adb-android-debug-bridge)
+- [ADB (Android Debug Bridge)](#-adb-android-debug-bridge)
 
 ### 🌍 Internationalization
-- [ISO 639-1 Language Codes](#iso-639-1-language-codes)
-- [MIME Types](#mime-types)
-
-### 💼 Collaboration & Productivity
-- [Microsoft Teams](#microsoft-teams)
-- [Notion](#notion)
-- [Outlook](#outlook)
-- [Airtable](#airtable)
-- [1Password](#1password)
-
-### 🎵 Media & Entertainment
-- [YouTube](#youtube)
-- [Spotify](#spotify)
-- [SoundCloud](#soundcloud)
-- [VLC Media Player](#vlc-media-player)
+- [ISO 639-1 Language Codes](#-iso-639-1-language-codes)
+- [MIME Types](#-mime-types)
 
 ## 🚫 Technologieën NIET gevonden
 
@@ -296,7 +282,7 @@ module.exports = function(width) {
 }
 ```
 
-### 📁 Bron: Root directory - npm.md 
+### 📁 Bron: Root directory - npm.md
 
 #### Package Management
 | Command | Description |
@@ -512,6 +498,59 @@ head file           # show first 10 lines
 head -n 20 file     # show first 20 lines
 tail file           # show last 10 lines
 tail -f file        # follow file updates in real-time
+```
+
+---
+
+## Linux Shell Tools
+
+**Wat is het?** Een collectie van Linux command-line tools voor system administration en text processing.  
+**Learning curve:** 🟡 Gemiddeld  
+**Gebruik voor:** System management, text processing, file operations
+
+### Find Command
+```bash
+# Find files by name
+find /path -name "*.txt"
+find . -name "config*"
+
+# Find by type
+find /path -type f        # Files only
+find /path -type d        # Directories only
+
+# Find by size
+find /path -size +100M    # Larger than 100MB
+find /path -size -1K      # Smaller than 1KB
+
+# Find by time
+find /path -mtime -7      # Modified in last 7 days
+find /path -atime +30     # Accessed more than 30 days ago
+
+# Execute command on results
+find /path -name "*.log" -delete
+find /path -name "*.txt" -exec grep "pattern" {} \;
+```
+
+### Text Processing
+```bash
+# grep - search text
+grep "pattern" file.txt
+grep -r "pattern" directory/    # Recursive
+grep -i "pattern" file.txt      # Case insensitive
+grep -v "pattern" file.txt      # Invert match
+grep -n "pattern" file.txt      # Show line numbers
+
+# sed - stream editor
+sed 's/old/new/g' file.txt      # Replace all occurrences
+sed -i 's/old/new/g' file.txt   # In-place edit
+sed '5d' file.txt               # Delete line 5
+sed '/pattern/d' file.txt       # Delete lines matching pattern
+
+# awk - pattern scanning
+awk '{print $1}' file.txt       # Print first column
+awk -F: '{print $1}' /etc/passwd # Custom field separator
+awk 'NR > 5' file.txt           # Lines after line 5
+awk '{sum+=$1} END {print sum}' # Sum first column
 ```
 
 ---
@@ -3103,7 +3142,7 @@ $margins: 10px, 20px, 30px, 40px;
 
 ---
 
-## 📐 **Sketch/SketchUp - Design Tools**
+## 📐 Sketch/SketchUp - Design Tools
 
 **Wat zijn het?** Sketch is een vector design tool voor macOS, SketchUp is een 3D modeling tool.  
 **Learning curve:** 🟡 Gemiddeld  
@@ -4054,7 +4093,7 @@ SELECT DATEDIFF(date1, date2);
 
 ---
 
-## 🔧 **Heroku - Cloud Platform Deployment**
+## 🔧 Heroku - Cloud Platform Deployment
 
 *Heroku is een cloud application platform voor het deployen, schalen en beheren van web applicaties. Ondersteunt meerdere programmeertalen en biedt een eenvoudige deployment workflow via Git.*
 
@@ -4332,7 +4371,7 @@ heroku pg:stats              # connection stats
 
 ---
 
-## 🌐 **Nginx - Web Server & Reverse Proxy**
+## 🌐 Nginx - Web Server & Reverse Proxy
 
 *Nginx is een high-performance web server, reverse proxy en load balancer. Bekend om zijn efficiëntie, stabiliteit en lage resource verbruik.*
 
@@ -4717,11 +4756,9 @@ ab -n 1000 -c 10 http://example.com/
 
 ---
 
-## 🌍 **HTTP & API Integration**
+# 📡 HTTP & API Integration
 
-*HTTP en API integratie tools voor het bouwen en testen van web services, REST APIs en het uitwisselen van data tussen clients en servers.*
-
-### 📡 **REST API Design Patterns**
+## 📡 REST API Design Patterns
 
 *RESTful API is een architectuurstijl voor het ontwerpen van web services. REST staat voor Representational State Transfer.*
 
@@ -4824,7 +4861,7 @@ Access-Control-Allow-Headers: Content-Type, Authorization
 
 ---
 
-### 🌐 **cURL - HTTP Client Tool**
+## 🌐 cURL - HTTP Client Tool
 
 *cURL is een command-line tool voor het overdragen van data via verschillende netwerkprotocollen, vooral gebruikt voor HTTP API testing.*
 
@@ -4931,7 +4968,7 @@ curl -A "MijnApp/1.0" https://api.example.com/data
 
 ---
 
-### 📄 **JSON - JavaScript Object Notation**
+## 📄 JSON - JavaScript Object Notation
 
 *JSON is een lightweight data-interchange format dat door mensen makkelijk te lezen is en door machines makkelijk te parsen.*
 
@@ -5040,7 +5077,7 @@ function isValidJSON(str) {
 }
 ```
 
-#### HTTP Status Code Referentie
+## HTTP Status Code Referentie
 
 **1xx Informational:**
 ```bash
@@ -5157,11 +5194,65 @@ fi
 
 ---
 
-## 🧪 **Testing & Quality Assurance**
+# 💾 Data Storage & Management
 
-*Testing tools en frameworks voor het automatiseren van unit tests, integration tests en end-to-end testing van applicaties.*
+## localStorage & sessionStorage
 
-### ⚡ **Vitest - Modern Testing Framework**
+**Wat is het?** Web Storage API biedt client-side data opslag in de browser.  
+**Learning curve:** 🟢 Makkelijk  
+**Gebruik voor:** User preferences, shopping carts, form data, offline functionality
+
+### localStorage
+```javascript
+// Set item
+localStorage.setItem('username', 'John')
+localStorage.setItem('settings', JSON.stringify({theme: 'dark'}))
+
+// Get item
+const username = localStorage.getItem('username')
+const settings = JSON.parse(localStorage.getItem('settings'))
+
+// Remove item
+localStorage.removeItem('username')
+
+// Clear all
+localStorage.clear()
+
+// Check if exists
+if (localStorage.getItem('username') !== null) {
+  // Item exists
+}
+```
+
+### sessionStorage
+```javascript
+// Same API as localStorage but session-scoped
+sessionStorage.setItem('tempData', 'value')
+sessionStorage.getItem('tempData')
+sessionStorage.removeItem('tempData')
+sessionStorage.clear()
+
+// Survives page reloads but not tab closes
+```
+
+### Storage Events
+```javascript
+// Listen for storage changes in other tabs
+window.addEventListener('storage', (e) => {
+  console.log('Storage changed:', {
+    key: e.key,
+    oldValue: e.oldValue,
+    newValue: e.newValue,
+    url: e.url
+  })
+})
+```
+
+---
+
+# 🧪 Testing & Quality Assurance
+
+## ⚡ Vitest - Modern Testing Framework
 
 *Vitest is een snelle unit testing framework dat native ES modules ondersteunt en optimaal werkt met Vite.*
 
@@ -5291,7 +5382,7 @@ describe('UserButton', () => {
 
 ---
 
-### 🎭 **Playwright - End-to-End Testing**
+## 🎭 Playwright - End-to-End Testing
 
 *Playwright is een moderne E2E testing framework voor web applications dat meerdere browsers ondersteunt.*
 
@@ -5452,7 +5543,7 @@ test('API endpoints work correctly', async ({ request }) => {
 
 ---
 
-### 🃏 **Jest - JavaScript Testing Framework**
+## 🃏 Jest - JavaScript Testing Framework
 
 *Jest is een comprehensive testing framework voor JavaScript applicaties met built-in assertions, mocking en coverage.*
 
@@ -5574,7 +5665,7 @@ test('UserCard renders correctly', () => {
 
 ---
 
-### 🎪 **Puppeteer - Browser Automation**
+## 🎪 Puppeteer - Browser Automation
 
 *Puppeteer is een Node.js library voor het controleren van Chrome/Chromium browsers via de DevTools Protocol.*
 
@@ -5786,11 +5877,9 @@ await page.waitForSelector('.loading', { hidden: true, timeout: 5000 })
 
 ---
 
-## 🛠️ **Development Tools**
+# 🔧 Development Tools
 
-*Essentiële development tools voor debugging, performance analysis, security en media processing.*
-
-### 🔍 **Chrome DevTools - Browser Developer Tools**
+## 🔍 Chrome DevTools - Browser Developer Tools
 
 *Chrome DevTools is een set van web development tools direct ingebouwd in Google Chrome voor debugging en optimization.*
 
@@ -5992,7 +6081,21 @@ navigator.serviceWorker.register('/sw.js')
 
 ---
 
-### 🎬 **FFmpeg - Media Processing**
+## Google Chrome
+
+**Wat is het?** Google Chrome is een populaire webbrowser met uitgebreide developer features.  
+**Learning curve:** 🟢 Makkelijk  
+**Gebruik voor:** Web browsing, web development, testing, extensions
+
+### Chrome Shortcuts & Features
+- Developer Tools: F12 of Ctrl+Shift+I
+- Incognito Mode: Ctrl+Shift+N
+- Task Manager: Shift+Esc
+- Chrome Flags: chrome://flags voor experimentele features
+
+---
+
+## 🎬 FFmpeg - Media Processing
 
 *FFmpeg is een complete cross-platform oplossing voor het opnemen, converteren en streamen van audio en video.*
 
@@ -6112,7 +6215,7 @@ ffmpeg -i input.mp4 -c:v libx264 -c:a aac -f hls \
 
 ---
 
-### 🔐 **OpenSSL - Cryptography Toolkit**
+## 🔐 OpenSSL - Cryptography Toolkit
 
 *OpenSSL is een robuuste toolkit voor Transport Layer Security (TLS) en algemene cryptografie.*
 
@@ -6257,7 +6360,7 @@ echo | openssl s_client -connect example.com:443 2>/dev/null | \
 
 ---
 
-### 🔤 **RegExp - Regular Expressions**
+## 🔤 RegExp - Regular Expressions
 
 *Regular Expressions zijn patterns gebruikt voor het matchen van character combinaties in strings.*
 
@@ -6420,11 +6523,9 @@ const result = regex.exec('2024-01-15')
 
 ---
 
-## 🌐 **Web Technologies**
+# 🌐 Web Technologies
 
-*Core web technologieën voor het bouwen van moderne web applicaties met HTML5, DOM manipulation, APIs en development shortcuts.*
-
-### 📄 **HTML5 - HyperText Markup Language**
+## 📄 HTML5 - HyperText Markup Language
 
 *HTML5 is de laatste versie van HTML met moderne semantic elements, multimedia support en enhanced forms.*
 
@@ -6614,7 +6715,7 @@ const result = regex.exec('2024-01-15')
 
 ---
 
-### 🔧 **DOM API - Document Object Model**
+## 🔧 DOM API - Document Object Model
 
 *De DOM API biedt een programmeerbare interface voor HTML documenten, waarmee je dynamisch content kunt manipuleren.*
 
@@ -6760,7 +6861,7 @@ element.dispatchEvent(customEvent)
 
 ---
 
-### 🌊 **Fetch API - Modern HTTP Requests**
+## 🌊 Fetch API - Modern HTTP Requests
 
 *De Fetch API biedt een moderne interface voor het maken van HTTP requests, als vervanging voor XMLHttpRequest.*
 
@@ -6936,7 +7037,7 @@ try {
 
 ---
 
-### ⚡ **Emmet - HTML/CSS Expansion**
+## ⚡ Emmet - HTML/CSS Expansion
 
 *Emmet is een plugin voor text editors die het schrijven van HTML en CSS versnelt door abbreviations te expanderen.*
 
@@ -7155,9 +7256,9 @@ form:post>(.form-group>label[for="field$"]{Field $}+input[type="text" id="field$
 
 ---
 
-## 📚 Documentation
+# 📚 Documentation
 
-### 📝 **Markdown - Lightweight Markup Language**
+## 📝 Markdown - Lightweight Markup Language
 Markdown is een eenvoudige opmaaktaal voor het schrijven van geformatteerde tekst.
 
 🟢 **Moeilijkheidsgraad**: Easy  
@@ -7327,7 +7428,7 @@ Multiline: >
 
 ---
 
-### 📖 **JSDoc - JavaScript Documentation**
+## 📖 JSDoc - JavaScript Documentation
 JSDoc is een standaard voor het documenteren van JavaScript code met speciale comments.
 
 🟢 **Moeilijkheidsgraad**: Easy  
@@ -7448,7 +7549,7 @@ function test(x) {}
 
 ---
 
-### 🔧 **YAML - YAML Ain't Markup Language**
+## 🔧 YAML - YAML Ain't Markup Language
 YAML is een mens-leesbaar data serialisatie formaat voor configuratie bestanden.
 
 🟢 **Moeilijkheidsgraad**: Easy  
@@ -7650,7 +7751,7 @@ ordered: !!omap
 
 ---
 
-### 🎯 **TOML - Tom's Obvious, Minimal Language**
+## 🎯 TOML - Tom's Obvious, Minimal Language
 TOML is een configuratie bestandsformaat dat gemakkelijk te lezen is door duidelijke semantiek.
 
 🟢 **Moeilijkheidsgraad**: Easy  
@@ -7814,7 +7915,7 @@ array3 = [
 
 ---
 
-### 📋 **XML - eXtensible Markup Language**
+## 📋 XML - eXtensible Markup Language
 XML is een opmaaktaal voor het opslaan en transporteren van data.
 
 🟡 **Moeilijkheidsgraad**: Medium  
@@ -7871,10 +7972,10 @@ If you develop applications, wait until the specification is stable before you a
 
 ---
 
-## 🎭 UI Components & Icons
+# 🎭 UI Components & Icons
 
-### 😀 **Emoji Reference**
-Emoji codes zijn niet altijd gemakkelijk te onthouden, dus hier is een kleine cheat sheet.
+## 😀 Emoji Reference
+Emoji codes zijn niet altijd gemakkelijk te onthouden, dus hier is een kleine cheet sheet.
 
 🟢 **Moeilijkheidsgraad**: Easy  
 **📊 Gebruik**: Social media, chat applicaties, user interfaces, notifications
@@ -7965,7 +8066,7 @@ Emoji codes zijn niet altijd gemakkelijk te onthouden, dus hier is een kleine ch
 
 ---
 
-### 🔢 **ASCII Codes**
+## 🔢 ASCII Codes
 ASCII (American Standard Code for Information Interchange) is een character encoding standaard.
 
 🟡 **Moeilijkheidsgraad**: Medium  
@@ -8070,7 +8171,7 @@ ASCII (American Standard Code for Information Interchange) is een character enco
 
 ---
 
-### 🌐 **HTML Character Entities**
+## 🌐 HTML Character Entities
 HTML character entities zorgen voor correcte weergave van speciale karakters in HTML.
 
 🟡 **Moeilijkheidsgraad**: Medium  
@@ -8159,9 +8260,9 @@ HTML character entities zorgen voor correcte weergave van speciale karakters in 
 
 ---
 
-## 🔐 **Security & Authentication**
+# 🔐 Security & Authentication
 
-### 🌐 **CORS - Cross-Origin Resource Sharing**
+## 🌐 CORS - Cross-Origin Resource Sharing
 CORS is een security mechanisme dat browsers beschermt tegen ongeautoriseerde cross-origin requests.
 
 🟡 **Moeilijkheidsgraad**: Medium  
@@ -8203,7 +8304,7 @@ app.use(cors({
 
 ---
 
-### 🔒 **File Permissions (chmod)**
+## 🔒 File Permissions (chmod)
 chmod controleert wie bestanden kan lezen, schrijven of uitvoeren in Unix/Linux systemen.
 
 🟡 **Moeilijkheidsgraad**: Medium  
@@ -8241,7 +8342,7 @@ chown -R user:group directory/
 
 ---
 
-### 📝 **Conventional Commits**
+## 📝 Conventional Commits
 Conventional Commits is een standaard voor commit messages die automatisering en changelog generation mogelijk maakt.
 
 🟢 **Moeilijkheidsgraad**: Easy  
@@ -8281,9 +8382,9 @@ git commit -m "feat!: change user model structure"  # Breaking change
 
 ---
 
-## 📦 **Package Management & Deployment**
+# 📦 Package Management & Deployment
 
-### 📋 **package.json**
+## 📋 package.json
 package.json is het configuratiebestand voor Node.js projecten dat dependencies en scripts definieert.
 
 🟢 **Moeilijkheidsgraad**: Easy  
@@ -8333,9 +8434,9 @@ package.json is het configuratiebestand voor Node.js projecten dat dependencies 
 
 ---
 
-## 🗂️ **Project Structure & Architecture**
+# 🗂️ Project Structure & Architecture
 
-### 🎯 **JavaScript Patterns**
+## 🎯 JavaScript Patterns
 Veelgebruikte design patterns en architectuur patronen in JavaScript development.
 
 🟡 **Moeilijkheidsgraad**: Medium  
@@ -8419,7 +8520,7 @@ console.log(db1 === db2); // true
 
 ---
 
-### 📐 **Aspect Ratios**
+## 📐 Aspect Ratios
 Standaard aspect ratios voor design en media content.
 
 🟢 **Moeilijkheidsgraad**: Easy  
@@ -8463,7 +8564,7 @@ Standaard aspect ratios voor design en media content.
 
 ---
 
-### 🖥️ **Screen Resolutions**
+## 🖥️ Screen Resolutions
 Overzicht van gangbare schermresoluties voor responsive design.
 
 🟢 **Moeilijkheidsgraad**: Easy  
@@ -8505,9 +8606,9 @@ Overzicht van gangbare schermresoluties voor responsive design.
 
 ---
 
-## 🖥️ **Operating Systems & Tools**
+# 🖥️ Operating Systems & Tools
 
-### ⊞ **Windows Shortcuts**
+## ⊞ Windows Shortcuts
 Essentiële Windows toetsenbordsnelkoppelingen voor productiviteit.
 
 🟢 **Moeilijkheidsgraad**: Easy  
@@ -8539,7 +8640,7 @@ Essentiële Windows toetsenbordsnelkoppelingen voor productiviteit.
 
 ---
 
-### 💻 **PowerShell**
+## 💻 PowerShell
 PowerShell commands voor Windows system administration en automation.
 
 🟡 **Moeilijkheidsgraad**: Medium  
@@ -8566,7 +8667,7 @@ Get-ComputerInfo      # System information
 
 ---
 
-### 🐧 **Ubuntu Commands**
+## 🐧 Ubuntu Commands
 Essentiële Ubuntu/Linux commando's voor server management.
 
 🟡 **Moeilijkheidsgraad**: Medium  
@@ -8608,7 +8709,7 @@ sudo systemctl status service-name
 
 ---
 
-### ⏰ **Cron Jobs**
+## ⏰ Cron Jobs
 Cron syntax voor het plannen van geautomatiseerde taken in Unix/Linux.
 
 🟡 **Moeilijkheidsgraad**: Medium  
@@ -8645,9 +8746,9 @@ Cron syntax voor het plannen van geautomatiseerde taken in Unix/Linux.
 
 ---
 
-## 🔍 **Search & Navigation**
+# 🔍 Search & Navigation
 
-### 🎯 **XPath**
+## 🎯 XPath
 XPath syntax voor het selecteren van XML/HTML elementen.
 
 🟡 **Moeilijkheidsgraad**: Medium  
@@ -8674,7 +8775,7 @@ XPath syntax voor het selecteren van XML/HTML elementen.
 
 ---
 
-### 🔍 **Find Command**
+## 🔍 Find Command
 Unix find command voor het zoeken naar bestanden en directories.
 
 🟡 **Moeilijkheidsgraad**: Medium  
@@ -8705,9 +8806,9 @@ find /path -name "*.txt" -exec grep "pattern" {} \;
 
 ---
 
-## 🤖 **AI & Automation**
+# 🤖 AI & Automation
 
-### 🧠 **AI Tools**
+## 🧠 AI Tools
 Een uitgebreide directory van AI tools georganiseerd per categorie voor verschillende toepassingen.
 
 🟢 **Moeilijkheidsgraad**: Easy  
@@ -8777,9 +8878,9 @@ Een uitgebreide directory van AI tools georganiseerd per categorie voor verschil
 
 ---
 
-## 📱 **Mobile Development**
+# 📱 Mobile Development
 
-### 📱 **ADB (Android Debug Bridge)**
+## 📱 ADB (Android Debug Bridge)
 ADB is een veelzijdig command-line tool voor communicatie met Android devices.
 
 🟡 **Moeilijkheidsgraad**: Medium  
@@ -8909,9 +9010,9 @@ adb connect device-ip:5555
 
 ---
 
-## 🌍 **Internationalization**
+# 🌍 Internationalization
 
-### 🌐 **ISO 639-1 Language Codes**
+## 🌐 ISO 639-1 Language Codes
 Standaard twee-letter codes voor taalidentificatie in internationale applicaties.
 
 🟢 **Moeilijkheidsgraad**: Easy  
@@ -8995,7 +9096,7 @@ function t(key, lang = 'en') {
 
 ---
 
-### 📄 **MIME Types**
+## 📄 MIME Types
 Media types voor het identificeren van bestandsformaten op het web.
 
 🟢 **Moeilijkheidsgraad**: Easy  
@@ -9111,7 +9212,7 @@ function downloadFile(content, filename, mimeType) {
 
 ---
 
-## 🎉 **Einde van Combined Cheatsheet**
+# 🎉 Einde van Combined Cheatsheet
 
 Dit document bevat een uitgebreide verzameling van moderne web development technologieën. Voor de meest recente informatie en updates, raadpleeg altijd de officiële documentatie van elke technologie.
 

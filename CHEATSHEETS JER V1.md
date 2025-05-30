@@ -57,7 +57,7 @@ Voor elke technologie wordt:
 ### 📡 HTTP & API Integration
 - [REST APIs](#rest-api-design-patterns)
 - [JSON Data Format](#json---javascript-object-notation)
-- [cURL Commands](#curl---http-client-tool)
+- [cURL Commands](#-curl---http-client-tool)
 - [HTTP Status Codes](#http-status-code-referentie)
 
 ### 💾 Data Storage & Management
@@ -70,62 +70,62 @@ Voor elke technologie wordt:
 - [Jest](#jest---javascript-testing-framework)
 
 ### 🔧 Development Tools
-- [Chrome DevTools](#chrome-devtools---browser-developer-tools)
+- [Chrome DevTools](#-chrome-devtools---browser-developer-tools)
 - [Google Chrome](#google-chrome)
-- [FFmpeg Media Tool](#ffmpeg---media-processing)
-- [OpenSSL](#openssl---cryptography-toolkit)
-- [RegExp/Regex](#regexp---regular-expressions)
+- [FFmpeg Media Tool](#-ffmpeg---media-processing)
+- [OpenSSL](#-openssl---cryptography-toolkit)
+- [RegExp/Regex](#-regexp---regular-expressions)
 
 ### 🌐 Web Technologies & APIs
-- [HTML5](#html5---hypertext-markup-language)
-- [DOM API](#dom-api---document-object-model)
-- [Fetch API](#fetch-api---modern-http-requests)
-- [Emmet](#emmet---htmlcss-expansion)
+- [HTML5](#-html5---hypertext-markup-language)
+- [DOM API](#-dom-api---document-object-model)
+- [Fetch API](#-fetch-api---modern-http-requests)
+- [Emmet](#-emmet---htmlcss-expansion)
 
 ### 📝 Documentation & Content
-- [Markdown](#markdown---lightweight-markup-language)
-- [JSDoc](#jsdoc---javascript-documentation)
-- [YAML](#yaml---yaml-aint-markup-language)
-- [TOML](#toml---toms-obvious-minimal-language)
-- [XML](#xml---extensible-markup-language)
+- [Markdown](#-markdown---lightweight-markup-language)
+- [JSDoc](#-jsdoc---javascript-documentation)
+- [YAML](#-yaml---yaml-aint-markup-language)
+- [TOML](#-toml---toms-obvious-minimal-language)
+- [XML](#-xml---extensible-markup-language)
 
 ### 🎭 UI Components & Icons
-- [Emoji Reference](#emoji-reference)
-- [ASCII Codes](#ascii-codes)
-- [HTML Character Entities](#html-character-entities)
+- [Emoji Reference](#-emoji-reference)
+- [ASCII Codes](#-ascii-codes)
+- [HTML Character Entities](#-html-character-entities)
 
 ### 🔐 Security & Authentication
-- [CORS](#cors---cross-origin-resource-sharing)
-- [File Permissions (chmod)](#file-permissions-chmod)
-- [Conventional Commits](#conventional-commits)
+- [CORS](#-cors---cross-origin-resource-sharing)
+- [File Permissions (chmod)](#-file-permissions-chmod)
+- [Conventional Commits](#-conventional-commits)
 
 ### 📦 Package Management & Deployment
-- [package.json](#packagejson)
+- [package.json](#-packagejson)
 
 ### 🗂️ Project Structure & Architecture
-- [JavaScript Patterns](#javascript-patterns)
-- [Aspect Ratios](#aspect-ratios)
-- [Screen Resolutions](#screen-resolutions)
+- [JavaScript Patterns](#-javascript-patterns)
+- [Aspect Ratios](#-aspect-ratios)
+- [Screen Resolutions](#-screen-resolutions)
 
 ### 🖥️ Operating Systems & Tools
-- [Windows Shortcuts](#windows-shortcuts)
-- [PowerShell](#powershell)
-- [Ubuntu Commands](#ubuntu-commands)
-- [Cron Jobs](#cron-jobs)
+- [Windows Shortcuts](#-windows-shortcuts)
+- [PowerShell](#-powershell)
+- [Ubuntu Commands](#-ubuntu-commands)
+- [Cron Jobs](#-cron-jobs)
 
 ### 🔍 Search & Navigation
-- [XPath](#xpath)
+- [XPath](#-xpath)
 - [Find Command](#find-command)
 
 ### 🤖 AI & Automation
-- [AI Tools](#ai-tools)
+- [AI Tools](#-ai-tools)
 
 ### 📱 Mobile Development
-- [ADB (Android Debug Bridge)](#adb-android-debug-bridge)
+- [ADB (Android Debug Bridge)](#-adb-android-debug-bridge)
 
 ### 🌍 Internationalization
-- [ISO 639-1 Language Codes](#iso-639-1-language-codes)
-- [MIME Types](#mime-types)
+- [ISO 639-1 Language Codes](#-iso-639-1-language-codes)
+- [MIME Types](#-mime-types)
 
 ## 🚫 Technologieën NIET gevonden
 
